@@ -1,3 +1,16 @@
+1. Get Create React App here: https://create-react-app.dev/docs/getting-started (I used it to set up the project folder structure, but it also has some behind the scenes packages that should be still necessary.)
+2. Ensure you have yarn. It should already be installed because of the app, but just in case run 'yarn --version' in the terminal.
+3. The two main directories we are concerned with are public and src. Public has index.html, which is the entry point for the code. However, right now we don't need to edit index.html. Src has App.js, which is conceptually very similar to App.js in react native. It's like the root of all the javascript, and App.js is rendered in public/index.html (this is what src/index.js does). 
+4. Inside src, I made a components directory (similar to the react native one) which houses a few of the components I've made so far. If you pick one to look at, you'll notice they're almost identical to react native components, but instead of using react native's default components (like Text and View), we use html elements (like div and h1). These are not true html tags since it's a javascript file, but for the most part, you can treat them as such.
+5. Making a component is very similar to react native. The same rules apply to functional and class components in react as react native. If you make a component, import it into the file in which it will be used. 
+6. If you're curious about the Router, check this site out: https://reactrouter.com/web/guides/quick-start (React Router is analogous to React Navigation in our app, but here it's working with HTML)
+7. If you run 'yarn start' while in the project, it opens up the browser and navigates to localhost similar to flask. This will be how you view the website while coding (i.e instead of expo, you'll check this).
+8. Side Note - on the contact us page, if you submit, it gives an error because there's no way to submit an HTTP POST right now. This is just a heads up and it doesn't break anything else.
+
+
+
+# From the auto-generated readme.md
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
