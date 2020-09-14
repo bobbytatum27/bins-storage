@@ -18,8 +18,9 @@ export const NavBar = () => {
         <div class="topnav">
             <header>
                 <Link to='/Landing'>Home</Link>
-                <Link to='/FAQ'>FAQ</Link>
                 <Link to='/About'>About</Link>
+                <Link to='/AppInfo'>App</Link>
+                <Link to='/FAQ'>FAQ</Link>
                 <Link to='/Contact'>Contact Us</Link>
             </header>
         </div>

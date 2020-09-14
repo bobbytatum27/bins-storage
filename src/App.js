@@ -4,7 +4,9 @@ import './App.css';
 
 import Landing from './components/Landing.js'
 import {NavBar} from './components/NavBar.js'
-import {FAQ} from './components/FAQ.js'
+import About from './components/About.js'
+import AppInfo from './components/AppInfo.js'
+import Faq from './components/FAQ.js'
 import Contact from './components/Contact.js'
 
 import {
@@ -24,8 +26,14 @@ function App() {
           <Route path='/Landing'>
             <Landing />
           </Route>
+          <Route path='/About'>
+            <About />
+          </Route>
+          <Route path='/AppInfo'>
+            <AppInfo />
+          </Route>
           <Route path='/FAQ'>
-            <FAQ />
+            <Faq />
           </Route>
           <Route path='/Contact'>
             <Contact />
@@ -54,4 +62,4 @@ export default App;
           Learn React
         </a>
       </header>
-*/ 
+*/

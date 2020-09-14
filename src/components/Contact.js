@@ -1,4 +1,5 @@
 import React from 'react';
+import background from '../assets/images/trees.png'
 
 export default class Contact extends React.Component {
     constructor(props) {
@@ -28,12 +29,18 @@ export default class Contact extends React.Component {
         this.setState({message: event.target.value});
     }
 
-    // Note on class(className) vs. id - class can be applied to multiple elements 
+    // Note on class(className) vs. id - class can be applied to multiple elements
     // whereas id should be a unique identifier for only one element.
     // This is primarily for styling purposes (in a css file)
     render() {
         return (
             <div>
+            <div class="container">
+              <img src={background} width="100%"/>
+                <div class="centered">
+                  <h1>Contact Us</h1>
+                </div>
+            </div>
                 <h1>Contact Us!</h1>
                 <form id='contact-form' onSubmit={this.onFormSubmit} method='POST'>
                     <div className='contact-form-inputs'>
