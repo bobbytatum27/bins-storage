@@ -1,12 +1,13 @@
 import React from 'react';
 
-import './styles/About.css'
+import './styles/styles.css'
 import background from '../assets/images/skyline.jpg'
-import graphic from '../assets/images/how-bins-works.png'
+import graphic from '../assets/images/how-bins-works2.png'
+import appStoreButton from '../assets/images/app-store-button.png'
+import googleStoreButton from '../assets/images/google-play-button.png'
 
 const About = () => (
   <body>
-    <div>
       <div class="container">
         <img src={background} width="100%"/>
           <div class="centered">
@@ -14,23 +15,27 @@ const About = () => (
           </div>
       </div>
       <div class="smallcontainer">
-          <h2>Our Vision</h2>
-          <p>Our goal is to create a unified platform that connects facilities, drivers, and customers through efficient and affordable storage.</p>
+          <h2 class="a">Our Vision</h2>
+          <p class="a">Our goal is to create a unified platform that connects facilities, drivers, and customers through efficient and affordable storage.</p>
       </div>
       <div class="smallcontainer">
-          <h2>Why We Exist</h2>
-          <p>Storage is a hassle. Moving in or out can be stressful. It requires having a vehicle to carry all your items, find time during storage facility hours, and a possibly far drive through traffic. On the other hand, storage facilities have trouble leasing certain units that are less favorable. This is forgone revenue for the storage company.</p>
-          <p class="b">We hope to solve these issue by transforming unwanted units into “valet” units, through our software that will allow for streamlined communication between customers, facilities, and drivers.</p>
+          <h2 class="a">Why We Exist</h2>
+          <p class="a">Storage is a hassle. Moving in or out can be stressful. It requires having a vehicle to carry all your items, find time during storage facility hours, and a possibly far drive through traffic. On the other hand, storage facilities have trouble leasing certain units that are less favorable. This is forgone revenue for the storage company.</p>
+          <p class="b">We hope to solve these issues by transforming unwanted units into “valet” units, making storage easy for tenants and storage facilities.</p>
       </div>
       <div class="smallcontainer">
-          <h2>How Bins Works</h2>
-          <p>We offer a software platform that allows traditional storage companies to transform their vacant, undesirable units into new “valet” units. Service for a “valet” unit includes pick-up and delivery of all stored items, allowing the customer to avoid the hassle of accessing the unit in person. Through an app or our website, customers can easily view their items, schedule deliveries/pickups, while facilities can track and process the orders.</p>
+          <h2 class="a">How Bins Works</h2>
+          <p class="a">Through our app, tenants can find a storage facility, view stored items, and request deliveries or pickups. Our technology helps coordinate communication between the tenant, facility, and drivers, making the process seamless and simple.</p>
       </div>
-      <div>
+      <div class="graphicontainer">
       <img src={graphic}/>
       </div>
-      <div style={{height:'300px'}}></div>
-    </div>
+      <div class="buttoncontainer">
+        <h5>Download the app to get started</h5>
+        <a href="https://www.apple.com/app-store/" class='appbutton'><img src={appStoreButton} width="300px"/></a>
+        <a href="https://play.google.com/store?hl=en_US.com/" class='appbutton'><img src={googleStoreButton} width="300px"/></a>
+      </div>
+      <div class="bottom"/>
   </body>
 )
 

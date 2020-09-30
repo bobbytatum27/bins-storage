@@ -1,0 +1,186 @@
+/* Creates a container */
+.container {
+  position: relative;
+}
+
+/* Creates a container for text */
+.smallcontainer{
+  margin: 10%;
+}
+
+/* Creates a container for Contact Us form */
+.formcontainer{
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: left;
+}
+
+/* Creates a container for How Bins Works graphic in About Us*/
+.graphicontainer{
+  margin-bottom: 5%;
+}
+
+/* Container for the background image and text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Container for facilities/tenants image and text in Landing page */
+.box {
+  float: left;
+  width: 35%;
+  margin-left: 10%;
+  padding: 5px;
+}
+
+/* Grey container on Landing page  */
+.graycontainer {
+  background-color: #D2D9DF;
+  overflow: hidden;
+  padding: 50px;
+}
+
+/* Container for "Download the app" section */
+.buttoncontainer {
+  background-color: #9DA1A4;
+  padding: 20px;
+}
+
+/* Container for the black box on the bottom */
+.bottom {
+  height:75px;
+  background-color: #000;
+}
+
+/* Style for App Store/Google Play buttons*/
+.appbutton {
+  margin: 15px;
+}
+
+/* Style for Contact Us textbox*/
+input[type=text], [type=email], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+label {
+  font-family: 'Raleway', sans-serif;
+
+  margin: 2px;
+}
+
+/* Large text in top center */
+h1 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: #FFF;
+  font-size: 100px;
+  font-weight: 500;
+  margin: 10px;
+}
+
+/* Section Header Aligned Left*/
+h2 {
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  color: #000;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+/* Section Header Aligned Center */
+h2.a {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  color: #000;
+  font-weight: 450;
+}
+
+/* Section Header Aligned Center with large margin*/
+h2.b {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  color: #000;
+  font-weight: 450;
+  margin: 100px;
+}
+
+/* Italicized text under big header */
+h3 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 35px;
+  color: #FFF;
+  font-weight: 350;
+  font-style: italic;
+}
+
+/* Smaller Section Header */
+h4 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 35px;
+  color: #000;
+  font-weight: 350;
+}
+
+/* Text for "Download to get started" */
+h5 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: #FFF;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+/* Smaller Section Header */
+h6 {
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: #000;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+/* Paragraph text in landing page */
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  text-align: left;
+}
+
+/* Paragraph text aligned left */
+p.a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* Paragraph text aligned center */
+p.b {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}

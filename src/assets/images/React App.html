@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://localhost:3000/Landing -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="http://localhost:3000/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="apple-touch-icon" href="http://localhost:3000/logo192.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  <style type="text/css">body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+</style><style type="text/css">.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+</style><style type="text/css">/* Creates a container */
+.container {
+  position: relative;
+}
+
+/* Creates a container for text */
+.smallcontainer{
+  margin: 10%;
+}
+
+/* Creates a container for Contact Us form */
+.formcontainer{
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: left;
+}
+
+/* Creates a container for How Bins Works graphic in About Us*/
+.graphicontainer{
+  margin-bottom: 5%;
+}
+
+/* Container for the background image and text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Container for facilities/tenants image and text in Landing page */
+.box {
+  float: left;
+  width: 35%;
+  margin-left: 10%;
+  padding: 5px;
+}
+
+/* Grey container on Landing page  */
+.graycontainer {
+  background-color: #D2D9DF;
+  overflow: hidden;
+  padding: 50px;
+}
+
+/* Container for "Download the app" section */
+.buttoncontainer {
+  background-color: #9DA1A4;
+  padding: 20px;
+}
+
+/* Container for the black box on the bottom */
+.bottom {
+  height:75px;
+  background-color: #000;
+}
+
+/* Style for App Store/Google Play buttons*/
+.appbutton {
+  margin: 15px;
+}
+
+/* Style for Contact Us textbox*/
+input[type=text], [type=email], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+label {
+  font-family: 'Raleway', sans-serif;
+
+  margin: 2px;
+}
+
+/* Large text in top center */
+h1 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: #FFF;
+  font-size: 100px;
+  font-weight: 500;
+  margin: 10px;
+}
+
+/* Section Header Aligned Left*/
+h2 {
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  color: #000;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+/* Section Header Aligned Center */
+h2.a {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  color: #000;
+  font-weight: 450;
+}
+
+/* Section Header Aligned Center with large margin*/
+h2.b {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  color: #000;
+  font-weight: 450;
+  margin: 100px;
+}
+
+/* Italicized text under big header */
+h3 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 35px;
+  color: #FFF;
+  font-weight: 350;
+  font-style: italic;
+}
+
+/* Smaller Section Header */
+h4 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 35px;
+  color: #000;
+  font-weight: 350;
+}
+
+/* Text for "Download to get started" */
+h5 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: #FFF;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+/* Smaller Section Header */
+h6 {
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: #000;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+/* Paragraph text in landing page */
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  text-align: left;
+}
+
+/* Paragraph text aligned left */
+p.a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* Paragraph text aligned center */
+p.b {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+</style><style type="text/css">/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+  }
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #000;
+    text-align: center;
+    padding: 14px 10px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: grey;
+  }
+
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  /* Style the header bar */
+  header {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 0% 3%;
+    background-color: #FFF;
+    text-decoration: none;
+  }
+
+  /* Style all text in header */
+  header a {
+    text-decoration: none;
+  }
+
+  /* Style the Bins Storage text in header */
+  h4 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    color: #000;
+    font-weight: 550;
+    margin: 15px;
+  }
+</style><style type="text/css">/* raleway-100normal - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100;
+  src:
+    local('Raleway Thin '),
+    local('Raleway-Thin'),
+    url(/static/media/raleway-latin-100.2d7a1238.woff2) format('woff2'), 
+    url(/static/media/raleway-latin-100.161ab2ad.woff) format('woff'); /* Modern Browsers */
+}
+
+/* raleway-100italic - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 100;
+  src:
+    local('Raleway Thin italic'),
+    local('Raleway-Thinitalic'),
+    url(/static/media/raleway-latin-100italic.9f282cbf.woff2) format('woff2'), 
+    url(/static/media/raleway-latin-100italic.5b062a0e.woff) format('woff'); /* Modern Browsers */
+}
+
+/* raleway-200normal - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200;
+  src:
+    local('Raleway Extra Light '),
+    local('Raleway-Extra Light'),
+    url(/static/media/raleway-latin-200.3fef5ebe.woff2) format('woff2'), 
+    url(/static/media/raleway-latin-200.138feb24.woff) format('woff'); /* Modern Browsers */
+}
+
+/* raleway-200italic - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 200;
+  src:
+    local('Raleway Extra Light italic'),
+    local('Raleway-Extra Lightitalic'),
+    url(/static/media/raleway-latin-200italic.33855fc8.woff2) format('woff2'), 
+    url(/static/media/raleway-latin-200italic.cc400d95.woff) format('woff'); /* Modern Browsers */
+}
+
+/* raleway-300normal - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src:
+    local('Raleway Light '),
+    local('Raleway-Light'),
+    url(/static/media/raleway-latin-300.d724dad2.woff2) format('woff2'), 
+    url(/static/media/raleway-latin-300.4baae0f7.woff) format('woff'); /* Modern Browsers */
+}
+
+/* raleway-300italic - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 300;
+  src:
+    local('Raleway Light italic'),
+    local('Raleway-Lightitalic'),
+    url(/static/media/raleway-latin-300italic.72abfd8d.woff2) format('woff2'), 
+    url(/static/media/raleway-latin-300italic.4f9a9bcc.woff) format('woff'); /* Modern Browsers */
+}
+
+/* raleway-400normal - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src:
+    local('Raleway Regular '),
+    local('Raleway-Regular'),
+    url(/static/media/raleway-latin-400.43c849ea.woff2) format('woff2'), 
+    url(/static/media/raleway-latin-400.60b344eb.woff) format('woff'); /* Modern Browsers */
+}
+
+/* raleway-400italic - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src:
+    local('Raleway Regular italic'),
+    local('Raleway-Regularitalic'),
+    url(/static/media/raleway-latin-400italic.9d182d98.woff2) format('woff2'), 
+    url(/static/media/raleway-latin-400italic.16b16819.woff) format('woff'); /* Modern Browsers */
+}
+
+/* raleway-500normal - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src:
+    local('Raleway Medium '),
+    local('Raleway-Medium'),
+    url(/static/media/raleway-latin-500.6a9b9c42.woff2) format('woff2'), 
+    url(/static/media/raleway-latin-500.e9163c03.woff) format('woff'); /* Modern Browsers */
+}
+
+/* raleway-500italic - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 500;
+  src:
+    local('Raleway Medium italic'),
+    local('Raleway-Mediumitalic'),
+    url(/static/media/raleway-latin-500italic.3ffdda0b.woff2) format('woff2'), 
+    url(/static/media/raleway-latin-500italic.20ee2c52.woff) format('woff'); /* Modern Browsers */
+}
+
+/* raleway-600normal - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src:
+    local('Raleway SemiBold '),
+    local('Raleway-SemiBold'),
+    url(/static/media/raleway-latin-600.911d9266.woff2) format('woff2'), 
+    url(/static/media/raleway-latin-600.b2b7ca0e.woff) format('woff'); /* Modern Browsers */
+}
+
+/* raleway-600italic - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 600;
+  src:
+    local('Raleway SemiBold italic'),
+    local('Raleway-SemiBolditalic'),
+    url(/static/media/raleway-latin-600italic.b121e5d7.woff2) format('woff2'), 
+    url(/static/media/raleway-latin-600italic.7d9764ef.woff) format('woff'); /* Modern Browsers */
+}
+
+/* raleway-700normal - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src:
+    local('Raleway Bold '),
+    local('Raleway-Bold'),
+    url(/static/media/raleway-latin-700.77d77f36.woff2) format('woff2'), 
+    url(/static/media/raleway-latin-700.f252da37.woff) format('woff'); /* Modern Browsers */
+}
+
+/* raleway-700italic - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src:
+    local('Raleway Bold italic'),
+    local('Raleway-Bolditalic'),
+    url(/static/media/raleway-latin-700italic.33ecb996.woff2) format('woff2'), 
+    url(/static/media/raleway-latin-700italic.e79e0f8f.woff) format('woff'); /* Modern Browsers */
+}
+
+/* raleway-800normal - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src:
+    local('Raleway ExtraBold '),
+    local('Raleway-ExtraBold'),
+    url(/static/media/raleway-latin-800.7222f1fa.woff2) format('woff2'), 
+    url(/static/media/raleway-latin-800.47f455f9.woff) format('woff'); /* Modern Browsers */
+}
+
+/* raleway-800italic - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 800;
+  src:
+    local('Raleway ExtraBold italic'),
+    local('Raleway-ExtraBolditalic'),
+    url(/static/media/raleway-latin-800italic.a45bb915.woff2) format('woff2'), 
+    url(/static/media/raleway-latin-800italic.675a7d7a.woff) format('woff'); /* Modern Browsers */
+}
+
+/* raleway-900normal - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src:
+    local('Raleway Black '),
+    local('Raleway-Black'),
+    url(/static/media/raleway-latin-900.d64bf57c.woff2) format('woff2'), 
+    url(/static/media/raleway-latin-900.d04db131.woff) format('woff'); /* Modern Browsers */
+}
+
+/* raleway-900italic - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 900;
+  src:
+    local('Raleway Black italic'),
+    local('Raleway-Blackitalic'),
+    url(/static/media/raleway-latin-900italic.c1c43520.woff2) format('woff2'), 
+    url(/static/media/raleway-latin-900italic.b2eea535.woff) format('woff'); /* Modern Browsers */
+}
+
+</style></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div class="App"><div><header><a href="http://localhost:3000/Landing"><h4>Bins Storage</h4></a><div class="topnav"><a href="http://localhost:3000/About">About</a><a href="http://localhost:3000/FAQ">FAQ</a><a href="http://localhost:3000/Contact">Contact Us</a></div></header></div></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <script src="./React App_files/bundle.js.download"></script><script src="./React App_files/1.chunk.js.download"></script><script src="./React App_files/main.chunk.js.download"></script><script src="./React App_files/main.8553f850a1135847e6af.hot-update.js.download"></script>
+
+</body></html>

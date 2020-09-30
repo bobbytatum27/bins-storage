@@ -1,0 +1,1934 @@
+(this["webpackJsonpbins-storage"] = this["webpackJsonpbins-storage"] || []).push([["main"],{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/App.css ***!
+  \************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".App {\r\n  text-align: center;\r\n}\r\n\r\n.App-logo {\r\n  height: 40vmin;\r\n  pointer-events: none;\r\n}\r\n\r\n@media (prefers-reduced-motion: no-preference) {\r\n  .App-logo {\r\n    animation: App-logo-spin infinite 20s linear;\r\n  }\r\n}\r\n\r\n.App-header {\r\n  background-color: #282c34;\r\n  min-height: 100vh;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: center;\r\n  font-size: calc(10px + 2vmin);\r\n  color: white;\r\n}\r\n\r\n.App-link {\r\n  color: #61dafb;\r\n}\r\n\r\n@keyframes App-logo-spin {\r\n  from {\r\n    transform: rotate(0deg);\r\n  }\r\n  to {\r\n    transform: rotate(360deg);\r\n  }\r\n}\r\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/styles/NavBar.css":
+/*!*********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/components/styles/NavBar.css ***!
+  \*********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "/* Add a black background color to the top navigation */\r\n.topnav {\r\n    overflow: hidden;\r\n  }\r\n\r\n  /* Style the links inside the navigation bar */\r\n  .topnav a {\r\n    float: left;\r\n    color: #000;\r\n    text-align: center;\r\n    padding: 14px 10px;\r\n    font-size: 20px;\r\n    font-family: 'Raleway', sans-serif;\r\n  }\r\n\r\n  /* Change the color of links on hover */\r\n  .topnav a:hover {\r\n    color: grey;\r\n  }\r\n\r\n  /* Add a color to the active/current link */\r\n  .topnav a.active {\r\n    background-color: #4CAF50;\r\n    color: white;\r\n  }\r\n  /* Style the header bar */\r\n  header {\r\n    display: flex;\r\n    justify-content: space-between ;\r\n    align-items: center;\r\n    padding: 0% 3%;\r\n    background-color: #FFF;\r\n    text-decoration: none;\r\n  }\r\n\r\n  /* Style all text in header */\r\n  header a {\r\n    text-decoration: none;\r\n  }\r\n\r\n  /* Style the Bins Storage text in header */\r\n  h4 {\r\n    text-align: center;\r\n    font-family: 'Raleway', sans-serif;\r\n    font-size: 35px;\r\n    color: #000;\r\n    font-weight: 550;\r\n    margin: 15px;\r\n  }\r\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/styles/styles.css":
+/*!*********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/components/styles/styles.css ***!
+  \*********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "/* Creates a container */\r\n.container {\r\n  position: relative;\r\n}\r\n\r\n/* Creates a container for text */\r\n.smallcontainer{\r\n  margin: 10%;\r\n}\r\n\r\n/* Creates a container for Contact Us form */\r\n.formcontainer{\r\n  margin-left: 30%;\r\n  margin-right: 30%;\r\n  margin-top: 5%;\r\n  margin-bottom: 5%;\r\n  text-align: left;\r\n}\r\n\r\n/* Creates a container for How Bins Works graphic in About Us*/\r\n.graphicontainer{\r\n  margin-bottom: 5%;\r\n}\r\n\r\n/* Container for the background image and text */\r\n.centered {\r\n  position: absolute;\r\n  top: 50%;\r\n  left: 50%;\r\n  transform: translate(-50%, -50%);\r\n}\r\n\r\n/* Container for facilities/tenants image and text in Landing page */\r\n.box {\r\n  float: left;\r\n  width: 35%;\r\n  margin-left: 10%;\r\n  padding: 5px;\r\n}\r\n\r\n/* Grey container on Landing page  */\r\n.graycontainer {\r\n  background-color: #D2D9DF;\r\n  overflow: hidden;\r\n  padding: 50px;\r\n}\r\n\r\n/* Container for \"Download the app\" section */\r\n.buttoncontainer {\r\n  background-color: #9DA1A4;\r\n  padding: 20px;\r\n}\r\n\r\n/* Container for the black box on the bottom */\r\n.bottom {\r\n  height:75px;\r\n  background-color: #000;\r\n}\r\n\r\n/* Style for App Store/Google Play buttons*/\r\n.appbutton {\r\n  margin: 15px;\r\n}\r\n\r\n/* Style for Contact Us textbox*/\r\ninput[type=text], [type=email], textarea {\r\n  width: 100%;\r\n  padding: 12px;\r\n  border: 1px solid #ccc;\r\n  border-radius: 4px;\r\n  box-sizing: border-box;\r\n  margin-top: 6px;\r\n  margin-bottom: 16px;\r\n  resize: vertical;\r\n}\r\n\r\nlabel {\r\n  font-family: 'Raleway', sans-serif;\r\n\r\n  margin: 2px;\r\n}\r\n\r\n/* Large text in top center */\r\nh1 {\r\n  text-align: center;\r\n  font-family: 'Raleway', sans-serif;\r\n  color: #FFF;\r\n  font-size: 100px;\r\n  font-weight: 500;\r\n  margin: 10px;\r\n}\r\n\r\n/* Section Header Aligned Left*/\r\nh2 {\r\n  text-align: left;\r\n  font-family: 'Raleway', sans-serif;\r\n  color: #000;\r\n  font-size: 50px;\r\n  font-weight: 400;\r\n}\r\n\r\n/* Section Header Aligned Center */\r\nh2.a {\r\n  text-align: center;\r\n  font-family: 'Raleway', sans-serif;\r\n  font-size: 40px;\r\n  color: #000;\r\n  font-weight: 450;\r\n}\r\n\r\n/* Section Header Aligned Center with large margin*/\r\nh2.b {\r\n  text-align: center;\r\n  font-family: 'Raleway', sans-serif;\r\n  font-size: 40px;\r\n  color: #000;\r\n  font-weight: 450;\r\n  margin: 100px;\r\n}\r\n\r\n/* Italicized text under big header */\r\nh3 {\r\n  text-align: center;\r\n  font-family: 'Raleway', sans-serif;\r\n  font-size: 35px;\r\n  color: #FFF;\r\n  font-weight: 350;\r\n  font-style: italic;\r\n}\r\n\r\n/* Smaller Section Header */\r\nh4 {\r\n  text-align: center;\r\n  font-family: 'Raleway', sans-serif;\r\n  font-size: 35px;\r\n  color: #000;\r\n  font-weight: 350;\r\n}\r\n\r\n/* Text for \"Download to get started\" */\r\nh5 {\r\n  text-align: center;\r\n  font-family: 'Raleway', sans-serif;\r\n  font-size: 30px;\r\n  color: #FFF;\r\n  font-weight: 400;\r\n  margin-top: 5px;\r\n  margin-bottom: 30px;\r\n}\r\n\r\n/* Smaller Section Header */\r\nh6 {\r\n  text-align: left;\r\n  font-family: 'Raleway', sans-serif;\r\n  font-size: 30px;\r\n  color: #000;\r\n  font-weight: 400;\r\n  margin-bottom: 10px;\r\n  margin-top: 50px;\r\n}\r\n\r\n/* Paragraph text in landing page */\r\np {\r\n  font-family: 'Raleway', sans-serif;\r\n  font-size: 24px;\r\n  text-align: left;\r\n}\r\n\r\n/* Paragraph text aligned left */\r\np.a {\r\n  font-family: 'Raleway', sans-serif;\r\n  font-size: 20px;\r\n  text-align: center;\r\n  margin-left: 10%;\r\n  margin-right: 10%;\r\n}\r\n\r\n/* Paragraph text aligned center */\r\np.b {\r\n  font-family: 'Raleway', sans-serif;\r\n  font-size: 20px;\r\n  text-align: center;\r\n  margin-top: 5%;\r\n  margin-left: 10%;\r\n  margin-right: 10%;\r\n}\r\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css":
+/*!**************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/index.css ***!
+  \**************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "body {\r\n  margin: 0;\r\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',\r\n    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',\r\n    sans-serif;\r\n  -webkit-font-smoothing: antialiased;\r\n  -moz-osx-font-smoothing: grayscale;\r\n}\r\n\r\ncode {\r\n  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',\r\n    monospace;\r\n}\r\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./src/App.css":
+/*!*********************!*\
+  !*** ./src/App.css ***!
+  \*********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css", function() {
+		var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/App.js":
+/*!********************!*\
+  !*** ./src/App.js ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _logo_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./logo.svg */ "./src/logo.svg");
+/* harmony import */ var _logo_svg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_logo_svg__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./App.css */ "./src/App.css");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_Landing_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/Landing.js */ "./src/components/Landing.js");
+/* harmony import */ var _components_NavBar_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/NavBar.js */ "./src/components/NavBar.js");
+/* harmony import */ var _components_About_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/About.js */ "./src/components/About.js");
+/* harmony import */ var _components_FAQ_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/FAQ.js */ "./src/components/FAQ.js");
+/* harmony import */ var _components_Contact_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/Contact.js */ "./src/components/Contact.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+var _jsxFileName = "C:\\Users\\azhan\\desktop\\bins-storage\\src\\App.js";
+
+
+
+
+
+
+
+
+
+
+function App() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "App",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 5
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__["BrowserRouter"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 7
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_NavBar_js__WEBPACK_IMPORTED_MODULE_4__["NavBar"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 9
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__["Switch"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__["Route"], {
+    exact: true,
+    path: "/",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 11
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Landing_js__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 13
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__["Route"], {
+    path: "/About",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 11
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_About_js__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 13
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__["Route"], {
+    path: "/FAQ",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 11
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_FAQ_js__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 13
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__["Route"], {
+    path: "/Contact",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 11
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Contact_js__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 13
+    }
+  })))));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (App);
+/* The original App.js content
+<header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+*/
+
+/***/ }),
+
+/***/ "./src/assets/images/022-order-1.png":
+/*!*******************************************!*\
+  !*** ./src/assets/images/022-order-1.png ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,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9dhy+DmeDmDW1NKJLUecGzct+7WoZaD1HGASg60HMDe6ZSBuf86/i+8f/rI4dvvX48hd342FY9tisLun9TR62HhnJHYPHx73H3xS3HPYS9z2hx4iAJLZueDZseHZq1rPAKAx94MBICEBAAAJCQAASEgAAEBCAgAAEhIAAJCQAACAhAQAACQkAAAgIQEAAAkJAABISAAAQEICAAASEgAAkJAAAICEBAAAJCQAACAhAQAACQkAAEhIAABAQgIAABISAACQkAAAgIQEAAAkJAAAICEBAAAJCQAASEgAAEBCAgAAEhIAAJCQAACAhAQAACQkAAAgIQEAAAkJAABISAAAQEICAAASEgAAkJAAAICEBAAAJCQAACAhAQAACQkAAEhIAABAQgIAABISAACQkAAAgIQEAAAkJAAAICEBAAAJCQAASEgAAEBCAgAAEhIAAJCQAACAhAQAACQkAAAgIQEAAAkJAABISAAAQEICAAASEgAAkJAAAICEBAAAJCQAACAhAQAACQkAAEhIAABAQgIAABISAACQkAAAgIQEAAAkJAAAICEBAAAJCQAASEgAAEBCAgAAEhIAAJCQAACAhAQAACQkAAAgIQEAAAkJAABISAAAQEICAAASEgAAkJAAAICEBAAAJCQAACAhAQAACQkAAEhIAABAQgIAABISAACQkAAAgIQGWw+YbReWb7SeACR1VesBsA/uAABAQgIAABISAACQkAAAgIQEAAAkJAAAICEBAAAJCQAASEgAAEBCAgAAEhIAAJCQAACAhAQAACQkAAAgIQEAAAkJAABISAAAQEICAAASEgAAkJAAAICEBAAAJCQAACAhAQAACQ22HgDTcfM3b2s9YVrOPOv01hOApNwBAICEBAAAJCQAACAhAQAACQkAAEhIAABAQgIAABLKEABjrQcAKe1pPQD2JUEAlF2tFwD5lIidrTfAviQIgK5/hMCcqwKAea7vA6BE56HWG4CEavjZw7zW9wFQo97VegOQUIlNrSfAvvR9AJTwjxCYe372MN/1fQDUUja03gAkVOvG1hNgX/o+ADqd8RsjorbeAaTS3TM+cGPrEbAvpfWAubB29K9uj1JObr0DSOO2VatXntF6BOxL398BiIiI0vly6wlAIiW+0noCTCZJANSrWk8A8uh2u37mMO+leAogwtMAwJy5Y9XqlStaj4DJ5LgDEBG1dP6s9QYggRqfbD0BpiJNAAwP18tLxMOtdwD9rGwfGolPtF4BU5EmAFauXLmzlvLHrXcA/atG/aOVK1f6DAB6QpoAiIjYs6fzRxHxYOsdQP+pEffXuudjrXfAVKUKgEsuee3DUeIDrXcA/adTy/vWrFnzaOsdMFVpXgXwT2qtZd3V190YJV7SegvQJ2p89aLV559TSvGuo/SMVHcAIiJKKXWg231jRCh1YCY8UgYG3uziT69JFwARERe87oLNpda3td4B9L4a8daLLnrtltY7YH+lDICIiIvW/PLaKPGR1juA3lUjPrx69cprWu+AA5E2ACIiLrro/PdGqZ9qvQPoQaVctXHjbb/ZegYcqNQBUEqp27bd/46o5QuttwA95XPbtv34TZdddlm39RA4UOleBfBUrr/++sFtD+24PCLe0noLMO9duW37fW+59NJL97YeAtMhAJ5Uay3r1q7/cER5b+stwLxUa8QfrFp1/gec+KcfCICfsnbtZ3+51O4VNeKw1luAeWNHlPL2VavOH209BGaKAHgK69Z97rjanfhURLys9RagsRpf7UZ505o1529tPQVmkgB4GrXWsnbt+l8pUf4gIo5svQeYa2V7qfGbF64+7xNu+dOPBMAkrr322kMn9pZ3Rem8O6Iubb0HmHXbasRHa93zMe/tTz8TAFM0Ojq6uBMj74gSb4mIFa33ADOs1g3RiSu63bFPrFmzZlfrOTDbBMABWLt2/elR68VRyyujxCmR/P0UoEd1I+I7UeLL3W73qjVrLvhW60EwlwTANF111WePGBrqvrwTsbyWclLUekJELI0oh0bUxREx3HojJDYWUXZF1EciYnuJ2BQRd0atG/eMD9x48cXnPdR6IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/a/we8tLojmqdE6QAAAABJRU5ErkJggg=="
+
+/***/ }),
+
+/***/ "./src/assets/images/033-storage.png":
+/*!*******************************************!*\
+  !*** ./src/assets/images/033-storage.png ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,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cqiJ9spSLJ45FotnjsXMc9+JbW9+b0y961ciKoeT0G0CgK7rtFfi1f/7lZg7/kLppVBjnU47pp//TiyePR77P/gJEQBd5m8YXXfiya+6+LNqc8efj+NPfbX0MqDvCQC6anHmaMwceqz0MmiYM88/FotnjpVeBvQ1AUBXzbz4uK/5s2adTjvOHHqi9DKgrwkAumr+2HOll0BDzR37SeklQF8TAHTV8txM6SXQUMtz06WXAH1NANBV7eXF0kugofzZge4SAACQkAAAgIQEAAAkJAAAICEBAAAJCQAASEgAAEBCAgAAEhIAAJCQAACAhAQAACQkAAAgIQEAAAkJAABISAAAQEICAAASEgAAkJAAAICEBAAAJCQAACAhAQAACQkAAEhIAABAQoOlF0B/e/nQS6WX0FVjkzuLfvx+//z+n3/z0dJL6GuDwyMxsWNP7L35tnjb+34pJvfdUHpJ9JAAAEhqeXEhTh95MU4feTF+9Oj/jLd/8FfivX/nk9EacGnIwJcAAIhOux0/fPR/xdcf+PfRXlkuvRx6QAAA8LpXn3kyvvtnXyq9DHpAAABwkR9/63/H6SMvll4GXSYAALhIp92OZ7/9UOll0GUCAIBLvPrM90svgS4TAABc4typY6WXQJcJAAAusbQwV3oJdJkAAICEBAAAJCQAACAhAQAACQkAAEhIAABAQgIAABLyMx9hA2ZPnyy9BIB1cQIAAAkJAABISAAAQEICAAASEgAAkJAAAICEBAAAJCQAACAhAQAACQkAAEhIAABAQgIAABISAACQkAAAgIQEAAAkJAAAICEBAAAJCQAASEgAAEBCAgAAEhIAAJCQAACAhAQAACQkAAAgIQEAAAkJAABISAAAQEICAAASEgAAkJAAAICEBAAAJCQAACAhAQAACQkAAEhIAABAQgIAABISAACQkAAAgIQEAAAkNFh6AaV97j/+l9JL6HO3l14ATbav9AJy8/rY35wAAEBCAgAAEhIAAJCQAACAhAQAACQkAAAgIQEAAAkJAABISAAAQEICAAASEgAAkJAAAICEBAAAJCQAACAhAQAACVWlF1Da9/7fk53SawCg997z7nelvgY6AQCAhAQAACQkAAAgIQEAAAkJAABISAAAQEICAAASEgAAkJAAAICEBAAAJCQAACAhAQAACQkAAEhIAABAQgIAABISAACQkAAAgIQEAAAkJAAAICEBAAAJCQAASEgAAEBCAgAAEhosvQA2V3v2ZCwe/UGsTB+OzvxMdNrLXf14p2Zmu/r7X8uObWNd/f2r1mBUW7bF4PbrYmjvO6I1urOrH2+jzH9zNW3+sBYCoE902iux8MKjsXTkBxGdTunl9I1Oezk6sydjcfZkLL7yZAzvuzVGbvxwRFWvwzPz746mzB/WQwD0gU57Jeae/vNYmT5ceil9rhOLrz4ZK3OnYuwdv1Gbi4D590o95w/r5U9wH1h4/hEv/j20Mv1yLDz/aOllvM78e6tu84f1EgAN1549GUtH/6b0MtJZfPWpaM+eLL0M8y+kLvOHjRAADbd41Nd8y+jE0tGnSy/C/Iupx/xhIwRAw61Mv1x6CWktn36p9BLMv6A6zB82QgA0XGfhbOklpNVZPFN6CeZfUB3mDxshABqus7JUeglp1eFzX4c1ZOVzT9MJAABISAAAQEICAAASEgAAkJAAAICEBAAAJCQAACAhAQAACQkAAEhIAABAQgIAABISAACQkAAAgIQEAAAkJAAAIKHB0gtgY14+9FLRjz82ubPoxy+9/1s+VPTDF9+/+Rf98LAhTgAAICEBAAAJCQAASEgAAEBCAgAAEhIAAJCQAACAhDwHgA2ZPX2y9BIoKPv8v/rZf1p6CV01MDQco9t3xc433xLX33ZXTOy6rvSS2EQCAIDLWllajLPHD8fZ44fj0GNfjxvu+MV4+8GPRmvApaMf+BIAANfW6cShxx6Ox/70D6O9slx6NWwCAQDAqp184Yfxo6//aellsAkEAABrcuiJh+Ps8cOll8EGCQAA1qbTiZe//0jpVbBBAgCANTvxwtOll8AGCQAA1mx+5kTpJbBBAgCANVtenC+9BDZIAABAQgIAABISAACQkAAAgIQEAAAkJAAAICEBAAAJCQAASEgAAEBCAgAAEhIAAJCQAACAhAQAACQkAAAgIQEAAAkJAABISAAAQEICAAASEgAAkJAAAICEBAAAJCQAACAhAQAACQkAAEhIAABAQgIAABISAACQkAAAgIQEAAAkJAAAICEBAAAJVRv9DX774/+osxkLAQBW77/9yZc3dA13AgAACQkAAEhIAABAQgIAABISAACQkAAAgIQEAAAkJAAAICEBAAAJCQAASEgAAEBCAgAAEhIAAJCQAACAhAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARMT/B58j+GgLcdOsAAAAAElFTkSuQmCC"
+
+/***/ }),
+
+/***/ "./src/assets/images/app-store-button.png":
+/*!************************************************!*\
+  !*** ./src/assets/images/app-store-button.png ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/app-store-button.f1a69034.png";
+
+/***/ }),
+
+/***/ "./src/assets/images/building2.jpg":
+/*!*****************************************!*\
+  !*** ./src/assets/images/building2.jpg ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/building2.33d3c34d.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/google-play-button.png":
+/*!**************************************************!*\
+  !*** ./src/assets/images/google-play-button.png ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/google-play-button.37de48fd.png";
+
+/***/ }),
+
+/***/ "./src/assets/images/how-bins-works2.png":
+/*!***********************************************!*\
+  !*** ./src/assets/images/how-bins-works2.png ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/how-bins-works2.323fb079.png";
+
+/***/ }),
+
+/***/ "./src/assets/images/moving.jpg":
+/*!**************************************!*\
+  !*** ./src/assets/images/moving.jpg ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/moving.0231d5c8.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/skyline.jpg":
+/*!***************************************!*\
+  !*** ./src/assets/images/skyline.jpg ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/skyline.4401804d.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/trees.png":
+/*!*************************************!*\
+  !*** ./src/assets/images/trees.png ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/trees.a857b18d.png";
+
+/***/ }),
+
+/***/ "./src/components/About.js":
+/*!*********************************!*\
+  !*** ./src/components/About.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_styles_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/styles.css */ "./src/components/styles/styles.css");
+/* harmony import */ var _styles_styles_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_styles_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _assets_images_skyline_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/images/skyline.jpg */ "./src/assets/images/skyline.jpg");
+/* harmony import */ var _assets_images_skyline_jpg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_images_skyline_jpg__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _assets_images_how_bins_works2_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/images/how-bins-works2.png */ "./src/assets/images/how-bins-works2.png");
+/* harmony import */ var _assets_images_how_bins_works2_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_assets_images_how_bins_works2_png__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _assets_images_app_store_button_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../assets/images/app-store-button.png */ "./src/assets/images/app-store-button.png");
+/* harmony import */ var _assets_images_app_store_button_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_images_app_store_button_png__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _assets_images_google_play_button_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../assets/images/google-play-button.png */ "./src/assets/images/google-play-button.png");
+/* harmony import */ var _assets_images_google_play_button_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_assets_images_google_play_button_png__WEBPACK_IMPORTED_MODULE_5__);
+var _jsxFileName = "C:\\Users\\azhan\\desktop\\bins-storage\\src\\components\\About.js";
+
+
+
+
+
+
+
+const About = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("body", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10,
+    columnNumber: 3
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  class: "container",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11,
+    columnNumber: 7
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+  src: _assets_images_skyline_jpg__WEBPACK_IMPORTED_MODULE_2___default.a,
+  width: "100%",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12,
+    columnNumber: 9
+  }
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  class: "centered",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13,
+    columnNumber: 11
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14,
+    columnNumber: 13
+  }
+}, "About Us"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  class: "smallcontainer",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17,
+    columnNumber: 7
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+  class: "a",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18,
+    columnNumber: 11
+  }
+}, "Our Vision"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  class: "a",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19,
+    columnNumber: 11
+  }
+}, "Our goal is to create a unified platform that connects facilities, drivers, and customers through efficient and affordable storage.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  class: "smallcontainer",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21,
+    columnNumber: 7
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+  class: "a",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22,
+    columnNumber: 11
+  }
+}, "Why We Exist"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  class: "a",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 23,
+    columnNumber: 11
+  }
+}, "Storage is a hassle. Moving in or out can be stressful. It requires having a vehicle to carry all your items, find time during storage facility hours, and a possibly far drive through traffic. On the other hand, storage facilities have trouble leasing certain units that are less favorable. This is forgone revenue for the storage company."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  class: "b",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24,
+    columnNumber: 11
+  }
+}, "We hope to solve these issues by transforming unwanted units into \u201Cvalet\u201D units, making storage easy for tenants and storage facilities.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  class: "smallcontainer",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 26,
+    columnNumber: 7
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+  class: "a",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27,
+    columnNumber: 11
+  }
+}, "How Bins Works"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  class: "a",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28,
+    columnNumber: 11
+  }
+}, "Through our app, tenants can find a storage facility, view stored items, and request deliveries or pickups. Our technology helps coordinate communication between the tenant, facility, and drivers, making the process seamless and simple.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  class: "graphicontainer",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 30,
+    columnNumber: 7
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+  src: _assets_images_how_bins_works2_png__WEBPACK_IMPORTED_MODULE_3___default.a,
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 31,
+    columnNumber: 7
+  }
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  class: "buttoncontainer",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 33,
+    columnNumber: 7
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 34,
+    columnNumber: 9
+  }
+}, "Download the app to get started"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  href: "https://www.apple.com/app-store/",
+  class: "appbutton",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 35,
+    columnNumber: 9
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+  src: _assets_images_app_store_button_png__WEBPACK_IMPORTED_MODULE_4___default.a,
+  width: "300px",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 35,
+    columnNumber: 70
+  }
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  href: "https://play.google.com/store?hl=en_US.com/",
+  class: "appbutton",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 36,
+    columnNumber: 9
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+  src: _assets_images_google_play_button_png__WEBPACK_IMPORTED_MODULE_5___default.a,
+  width: "300px",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 36,
+    columnNumber: 81
+  }
+}))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  class: "bottom",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 38,
+    columnNumber: 7
+  }
+}));
+
+/* harmony default export */ __webpack_exports__["default"] = (About);
+
+/***/ }),
+
+/***/ "./src/components/Contact.js":
+/*!***********************************!*\
+  !*** ./src/components/Contact.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Contact; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_styles_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/styles.css */ "./src/components/styles/styles.css");
+/* harmony import */ var _styles_styles_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_styles_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _assets_images_trees_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/images/trees.png */ "./src/assets/images/trees.png");
+/* harmony import */ var _assets_images_trees_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_images_trees_png__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _assets_images_app_store_button_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/images/app-store-button.png */ "./src/assets/images/app-store-button.png");
+/* harmony import */ var _assets_images_app_store_button_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_assets_images_app_store_button_png__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _assets_images_google_play_button_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../assets/images/google-play-button.png */ "./src/assets/images/google-play-button.png");
+/* harmony import */ var _assets_images_google_play_button_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_images_google_play_button_png__WEBPACK_IMPORTED_MODULE_4__);
+var _jsxFileName = "C:\\Users\\azhan\\desktop\\bins-storage\\src\\components\\Contact.js";
+
+
+
+
+
+class Contact extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+
+    this.onFormSubmit = () => {
+      console.log('Form Submitted');
+    };
+
+    this.onNameChange = event => {
+      this.setState({
+        name: event.target.value
+      });
+    };
+
+    this.onEmailChange = event => {
+      this.setState({
+        email: event.target.value
+      });
+    };
+
+    this.onMessageChange = event => {
+      this.setState({
+        message: event.target.value
+      });
+    };
+
+    this.state = {
+      emailSent: false,
+      name: '',
+      email: '',
+      message: ''
+    };
+  }
+
+  // Note on class(className) vs. id - class can be applied to multiple elements
+  // whereas id should be a unique identifier for only one element.
+  // This is primarily for styling purposes (in a css file)
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 41,
+        columnNumber: 13
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      class: "container",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 42,
+        columnNumber: 13
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: _assets_images_trees_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+      width: "100%",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 43,
+        columnNumber: 15
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      class: "centered",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 44,
+        columnNumber: 17
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 45,
+        columnNumber: 19
+      }
+    }, "Contact Us"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      class: "formcontainer",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 48,
+        columnNumber: 13
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+      id: "contact-form",
+      onSubmit: this.onFormSubmit,
+      method: "POST",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 49,
+        columnNumber: 17
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "contact-form-inputs",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 50,
+        columnNumber: 21
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+      htmlFor: "inputName",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 51,
+        columnNumber: 25
+      }
+    }, "Name"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+      id: "inputName",
+      type: "text",
+      value: this.state.name,
+      onChange: this.onNameChange,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 52,
+        columnNumber: 25
+      }
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "contact-form-inputs",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 54,
+        columnNumber: 21
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+      htmlFor: "inputEmail",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 55,
+        columnNumber: 25
+      }
+    }, "Email"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+      id: "inputEmail",
+      type: "email",
+      value: this.state.email,
+      onChange: this.onEmailChange,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 56,
+        columnNumber: 25
+      }
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "contact-form-inputs",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 58,
+        columnNumber: 21
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+      htmlFor: "messageContent",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 59,
+        columnNumber: 25
+      }
+    }, "Message"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
+      id: "messageContent",
+      rows: "5",
+      value: this.state.message,
+      onChange: this.onMessageChange,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 60,
+        columnNumber: 25
+      }
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      type: "submit",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 62,
+        columnNumber: 21
+      }
+    }, "Submit"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      class: "buttoncontainer",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 65,
+        columnNumber: 17
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 66,
+        columnNumber: 19
+      }
+    }, "Download the app to get started"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "https://www.apple.com/app-store/",
+      class: "appbutton",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 67,
+        columnNumber: 19
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: _assets_images_app_store_button_png__WEBPACK_IMPORTED_MODULE_3___default.a,
+      width: "300px",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 67,
+        columnNumber: 80
+      }
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "https://play.google.com/store?hl=en_US.com/",
+      class: "appbutton",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 68,
+        columnNumber: 19
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: _assets_images_google_play_button_png__WEBPACK_IMPORTED_MODULE_4___default.a,
+      width: "300px",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 68,
+        columnNumber: 91
+      }
+    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      class: "bottom",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 70,
+        columnNumber: 17
+      }
+    }));
+  }
+
+}
+
+/***/ }),
+
+/***/ "./src/components/FAQ.js":
+/*!*******************************!*\
+  !*** ./src/components/FAQ.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_styles_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/styles.css */ "./src/components/styles/styles.css");
+/* harmony import */ var _styles_styles_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_styles_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _assets_images_building2_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/images/building2.jpg */ "./src/assets/images/building2.jpg");
+/* harmony import */ var _assets_images_building2_jpg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_images_building2_jpg__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _assets_images_app_store_button_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/images/app-store-button.png */ "./src/assets/images/app-store-button.png");
+/* harmony import */ var _assets_images_app_store_button_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_assets_images_app_store_button_png__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _assets_images_google_play_button_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../assets/images/google-play-button.png */ "./src/assets/images/google-play-button.png");
+/* harmony import */ var _assets_images_google_play_button_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_images_google_play_button_png__WEBPACK_IMPORTED_MODULE_4__);
+var _jsxFileName = "C:\\Users\\azhan\\desktop\\bins-storage\\src\\components\\FAQ.js";
+
+
+
+
+
+
+const Faq = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("body", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9,
+    columnNumber: 3
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  class: "container",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10,
+    columnNumber: 7
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+  src: _assets_images_building2_jpg__WEBPACK_IMPORTED_MODULE_2___default.a,
+  width: "100%",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11,
+    columnNumber: 9
+  }
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  class: "centered",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12,
+    columnNumber: 11
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13,
+    columnNumber: 13
+  }
+}, "FAQ"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  class: "smallcontainer",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 7
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+  class: "b",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17,
+    columnNumber: 11
+  }
+}, "General"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18,
+    columnNumber: 11
+  }
+}, "What is Bins Storage?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19,
+    columnNumber: 11
+  }
+}, "Bins provides valet or full-service storage, offering tenants the option to have items picked up or delivered, removing the hassle of having to lift or drive."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 20,
+    columnNumber: 11
+  }
+}, "Where is Bins Offered?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21,
+    columnNumber: 11
+  }
+}, "You can store items in any of the storage facilities that have partnered with Bins. Currently, we are in the San Francisco Bay area, but we are planning on expanding to other regions soon."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22,
+    columnNumber: 11
+  }
+}, "What\u2019s the difference between valet storage and self storage?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 23,
+    columnNumber: 11
+  }
+}, "With self storage, the tenant is responsible for everything - packing, driving, and moving into the unit. With valet storage, drivers will pick up or deliver your items, removing the need to physically go to the storage facility."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24,
+    columnNumber: 11
+  }
+}, "How do I get started?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 25,
+    columnNumber: 11
+  }
+}, "Download our app and follow the instructions to get started."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+  class: "b",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27,
+    columnNumber: 11
+  }
+}, "Pricing and Payments"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28,
+    columnNumber: 11
+  }
+}, "How much does storage cost?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 29,
+    columnNumber: 11
+  }
+}, "Bins offers a variety of different plans and options, so tenants can browse and select a plan that works best for them."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 30,
+    columnNumber: 11
+  }
+}, "When will I be billed?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 31,
+    columnNumber: 11
+  }
+}, "You will be charged on the day your items are moved into storage, and monthly thereafter. You will also be charged for new pickups and deliveries."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 32,
+    columnNumber: 11
+  }
+}, "How do I pay?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 33,
+    columnNumber: 11
+  }
+}, "TBD"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+  class: "b",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 35,
+    columnNumber: 11
+  }
+}, "Storing Items"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 36,
+    columnNumber: 11
+  }
+}, "What size are the bins?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 37,
+    columnNumber: 11
+  }
+}, "All bins are 60cm x 40cm x 31.5cm."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 38,
+    columnNumber: 11
+  }
+}, "Can you store large or bulky items?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 39,
+    columnNumber: 11
+  }
+}, "Yes, you can store furniture and other large items with us."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+  class: "b",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 41,
+    columnNumber: 11
+  }
+}, "Orders"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 42,
+    columnNumber: 11
+  }
+}, "How Do I Request an Order?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 43,
+    columnNumber: 11
+  }
+}, "Simply navigate to your items and select the items that you\u2019d like to store or have returned. Then, schedule your appointment and we'll come by to pick up/drop off your items."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 44,
+    columnNumber: 11
+  }
+}, "How Do I Create a New Bin?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 45,
+    columnNumber: 11
+  }
+}, "First, pack up a bin with the belongings you want. Then, under \"Items with You\", you can create a new item by taking a photo and adding a description. Now it will be ready to be picked up and stored."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 46,
+    columnNumber: 11
+  }
+}, "How Much Does an Order Cost?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 47,
+    columnNumber: 11
+  }
+}, "Each facility will have their own delivery costs. Typically, the initial pick-up is free, and any orders after that are $20."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 48,
+    columnNumber: 11
+  }
+}, "How Do I Cancel an Order?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 49,
+    columnNumber: 11
+  }
+}, "You can call ________ or email ________ to cancel an order. All orders must be canceled 24 hours before the scheduled time.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  class: "buttoncontainer",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 51,
+    columnNumber: 7
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 52,
+    columnNumber: 9
+  }
+}, "Download the app to get started"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  href: "https://www.apple.com/app-store/",
+  class: "appbutton",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 53,
+    columnNumber: 9
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+  src: _assets_images_app_store_button_png__WEBPACK_IMPORTED_MODULE_3___default.a,
+  width: "300px",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 53,
+    columnNumber: 70
+  }
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  href: "https://play.google.com/store?hl=en_US.com/",
+  class: "appbutton",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 54,
+    columnNumber: 9
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+  src: _assets_images_google_play_button_png__WEBPACK_IMPORTED_MODULE_4___default.a,
+  width: "300px",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 54,
+    columnNumber: 81
+  }
+}))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  class: "bottom",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 56,
+    columnNumber: 7
+  }
+}));
+
+/* harmony default export */ __webpack_exports__["default"] = (Faq);
+
+/***/ }),
+
+/***/ "./src/components/Landing.js":
+/*!***********************************!*\
+  !*** ./src/components/Landing.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_styles_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/styles.css */ "./src/components/styles/styles.css");
+/* harmony import */ var _styles_styles_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_styles_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _assets_images_moving_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/images/moving.jpg */ "./src/assets/images/moving.jpg");
+/* harmony import */ var _assets_images_moving_jpg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_images_moving_jpg__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _assets_images_033_storage_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/images/033-storage.png */ "./src/assets/images/033-storage.png");
+/* harmony import */ var _assets_images_033_storage_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_assets_images_033_storage_png__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _assets_images_022_order_1_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../assets/images/022-order-1.png */ "./src/assets/images/022-order-1.png");
+/* harmony import */ var _assets_images_022_order_1_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_images_022_order_1_png__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _assets_images_app_store_button_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../assets/images/app-store-button.png */ "./src/assets/images/app-store-button.png");
+/* harmony import */ var _assets_images_app_store_button_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_assets_images_app_store_button_png__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _assets_images_google_play_button_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../assets/images/google-play-button.png */ "./src/assets/images/google-play-button.png");
+/* harmony import */ var _assets_images_google_play_button_png__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_assets_images_google_play_button_png__WEBPACK_IMPORTED_MODULE_6__);
+var _jsxFileName = "C:\\Users\\azhan\\desktop\\bins-storage\\src\\components\\Landing.js";
+
+
+
+
+
+
+
+
+const Landing = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("body", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12,
+    columnNumber: 9
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13,
+    columnNumber: 11
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  class: "container",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14,
+    columnNumber: 13
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+  src: _assets_images_moving_jpg__WEBPACK_IMPORTED_MODULE_2___default.a,
+  width: "100%",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 15
+  }
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  class: "centered",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 17
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17,
+    columnNumber: 19
+  }
+}, "Bins Storage"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18,
+    columnNumber: 19
+  }
+}, "Storage Virutalized"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  class: "smallcontainer",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21,
+    columnNumber: 13
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22,
+    columnNumber: 17
+  }
+}, "We create efficiencies through our technology"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 23,
+    columnNumber: 17
+  }
+}, "Our platform helps traditional storage facilities transform their vacancies into valet style units, more effectively monetizing these spaces. Bins provides the software for communication and organization that makes this possible, improving storage for both businesses and customers.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  class: "graycontainer",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 25,
+    columnNumber: 13
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  class: "box",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 26,
+    columnNumber: 15
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+  src: _assets_images_033_storage_png__WEBPACK_IMPORTED_MODULE_3___default.a,
+  width: "50%",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27,
+    columnNumber: 17
+  }
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28,
+    columnNumber: 17
+  }
+}, "Facilities"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 29,
+    columnNumber: 17
+  }
+}, "Bins provides storage facilities with the technology and management system to implement valet storage."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 30,
+    columnNumber: 17
+  }
+}, "Companies can increase revenues by filling vacancies and expanding their market radius. All of it comes without any additional costs for the facility."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 31,
+    columnNumber: 17
+  }
+}, "Contact us to become a storage partner.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  class: "box",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 33,
+    columnNumber: 15
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+  src: _assets_images_022_order_1_png__WEBPACK_IMPORTED_MODULE_4___default.a,
+  width: "50%",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 34,
+    columnNumber: 17
+  }
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 35,
+    columnNumber: 17
+  }
+}, "Tenants"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 36,
+    columnNumber: 17
+  }
+}, "Our app provides tenants with the ability to virtually view items in storage, then schedule deliveries."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 37,
+    columnNumber: 17
+  }
+}, "Bins provides convinence and eliminates the need to pack, lift, or drive. Customers can see everything in storage without having to dig through their unit."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 38,
+    columnNumber: 17
+  }
+}, "Get started today by downloading our app."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  class: "buttoncontainer",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 41,
+    columnNumber: 13
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 42,
+    columnNumber: 15
+  }
+}, "Download the app to get started"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  href: "https://www.apple.com/app-store/",
+  class: "appbutton",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 43,
+    columnNumber: 15
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+  src: _assets_images_app_store_button_png__WEBPACK_IMPORTED_MODULE_5___default.a,
+  width: "300px",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 43,
+    columnNumber: 76
+  }
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  href: "https://play.google.com/store?hl=en_US.com/",
+  class: "appbutton",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 44,
+    columnNumber: 15
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+  src: _assets_images_google_play_button_png__WEBPACK_IMPORTED_MODULE_6___default.a,
+  width: "300px",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 44,
+    columnNumber: 87
+  }
+}))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  class: "bottom",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 46,
+    columnNumber: 13
+  }
+})));
+
+/* harmony default export */ __webpack_exports__["default"] = (Landing);
+
+/***/ }),
+
+/***/ "./src/components/NavBar.js":
+/*!**********************************!*\
+  !*** ./src/components/NavBar.js ***!
+  \**********************************/
+/*! exports provided: NavBar */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NavBar", function() { return NavBar; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _Landing_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Landing.js */ "./src/components/Landing.js");
+/* harmony import */ var _styles_NavBar_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/NavBar.css */ "./src/components/styles/NavBar.css");
+/* harmony import */ var _styles_NavBar_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_NavBar_css__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "C:\\Users\\azhan\\desktop\\bins-storage\\src\\components\\NavBar.js";
+
+ // imported components
+
+ // imported styles
+
+
+const NavBar = () => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/Landing",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 17
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 37
+    }
+  }, "Bins Storage")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    class: "topnav",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 17
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/About",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 17
+    }
+  }, "About"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/FAQ",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 17
+    }
+  }, "FAQ"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/Contact",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 17
+    }
+  }, "Contact Us"))));
+};
+
+/***/ }),
+
+/***/ "./src/components/styles/NavBar.css":
+/*!******************************************!*\
+  !*** ./src/components/styles/NavBar.css ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./NavBar.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/styles/NavBar.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./NavBar.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/styles/NavBar.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./NavBar.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/styles/NavBar.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/styles/styles.css":
+/*!******************************************!*\
+  !*** ./src/components/styles/styles.css ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./styles.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/styles/styles.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./styles.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/styles/styles.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./styles.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/styles/styles.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/index.css":
+/*!***********************!*\
+  !*** ./src/index.css ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css", function() {
+		var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.css */ "./src/index.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./App */ "./src/App.js");
+/* harmony import */ var _serviceWorker__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./serviceWorker */ "./src/serviceWorker.js");
+/* harmony import */ var typeface_raleway__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! typeface-raleway */ "./node_modules/typeface-raleway/index.css");
+/* harmony import */ var typeface_raleway__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(typeface_raleway__WEBPACK_IMPORTED_MODULE_5__);
+var _jsxFileName = "C:\\Users\\azhan\\desktop\\bins-storage\\src\\index.js";
+
+
+
+
+
+
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.StrictMode, {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9,
+    columnNumber: 3
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_App__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10,
+    columnNumber: 5
+  }
+})), document.getElementById('root')); // If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+
+_serviceWorker__WEBPACK_IMPORTED_MODULE_4__["unregister"]();
+
+/***/ }),
+
+/***/ "./src/logo.svg":
+/*!**********************!*\
+  !*** ./src/logo.svg ***!
+  \**********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/logo.ee7cd8ed.svg";
+
+/***/ }),
+
+/***/ "./src/serviceWorker.js":
+/*!******************************!*\
+  !*** ./src/serviceWorker.js ***!
+  \******************************/
+/*! exports provided: register, unregister */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "register", function() { return register; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unregister", function() { return unregister; });
+// This optional code is used to register a service worker.
+// register() is not called by default.
+// This lets the app load faster on subsequent visits in production, and gives
+// it offline capabilities. However, it also means that developers (and users)
+// will only see deployed updates on subsequent visits to a page, after all the
+// existing tabs open on the page have been closed, since previously cached
+// resources are updated in the background.
+// To learn more about the benefits of this model and instructions on how to
+// opt-in, read https://bit.ly/CRA-PWA
+const isLocalhost = Boolean(window.location.hostname === 'localhost' || // [::1] is the IPv6 localhost address.
+window.location.hostname === '[::1]' || // 127.0.0.0/8 are considered localhost for IPv4.
+window.location.hostname.match(/^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/));
+function register(config) {
+  if (false) {}
+}
+
+function registerValidSW(swUrl, config) {
+  navigator.serviceWorker.register(swUrl).then(registration => {
+    registration.onupdatefound = () => {
+      const installingWorker = registration.installing;
+
+      if (installingWorker == null) {
+        return;
+      }
+
+      installingWorker.onstatechange = () => {
+        if (installingWorker.state === 'installed') {
+          if (navigator.serviceWorker.controller) {
+            // At this point, the updated precached content has been fetched,
+            // but the previous service worker will still serve the older
+            // content until all client tabs are closed.
+            console.log('New content is available and will be used when all ' + 'tabs for this page are closed. See https://bit.ly/CRA-PWA.'); // Execute callback
+
+            if (config && config.onUpdate) {
+              config.onUpdate(registration);
+            }
+          } else {
+            // At this point, everything has been precached.
+            // It's the perfect time to display a
+            // "Content is cached for offline use." message.
+            console.log('Content is cached for offline use.'); // Execute callback
+
+            if (config && config.onSuccess) {
+              config.onSuccess(registration);
+            }
+          }
+        }
+      };
+    };
+  }).catch(error => {
+    console.error('Error during service worker registration:', error);
+  });
+}
+
+function checkValidServiceWorker(swUrl, config) {
+  // Check if the service worker can be found. If it can't reload the page.
+  fetch(swUrl, {
+    headers: {
+      'Service-Worker': 'script'
+    }
+  }).then(response => {
+    // Ensure service worker exists, and that we really are getting a JS file.
+    const contentType = response.headers.get('content-type');
+
+    if (response.status === 404 || contentType != null && contentType.indexOf('javascript') === -1) {
+      // No service worker found. Probably a different app. Reload the page.
+      navigator.serviceWorker.ready.then(registration => {
+        registration.unregister().then(() => {
+          window.location.reload();
+        });
+      });
+    } else {
+      // Service worker found. Proceed as normal.
+      registerValidSW(swUrl, config);
+    }
+  }).catch(() => {
+    console.log('No internet connection found. App is running in offline mode.');
+  });
+}
+
+function unregister() {
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.ready.then(registration => {
+      registration.unregister();
+    }).catch(error => {
+      console.error(error.message);
+    });
+  }
+}
+
+/***/ }),
+
+/***/ 1:
+/*!************************************************************************************************************************************************!*\
+  !*** multi (webpack)/hot/dev-server.js C:/Users/azhan/Desktop/bins-storage/node_modules/react-dev-utils/webpackHotDevClient.js ./src/index.js ***!
+  \************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! C:\Users\azhan\Desktop\bins-storage\node_modules\webpack\hot\dev-server.js */"./node_modules/webpack/hot/dev-server.js");
+__webpack_require__(/*! C:\Users\azhan\Desktop\bins-storage\node_modules\react-dev-utils\webpackHotDevClient.js */"./node_modules/react-dev-utils/webpackHotDevClient.js");
+module.exports = __webpack_require__(/*! C:\Users\azhan\desktop\bins-storage\src\index.js */"./src/index.js");
+
+
+/***/ })
+
+},[[1,"runtime-main",1]]]);
+//# sourceMappingURL=main.chunk.js.map

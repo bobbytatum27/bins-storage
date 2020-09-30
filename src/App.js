@@ -5,7 +5,6 @@ import './App.css';
 import Landing from './components/Landing.js'
 import {NavBar} from './components/NavBar.js'
 import About from './components/About.js'
-import AppInfo from './components/AppInfo.js'
 import Faq from './components/FAQ.js'
 import Contact from './components/Contact.js'
 
@@ -21,16 +20,12 @@ function App() {
     <div className="App">
       <Router>
         <NavBar />
-
         <Switch>
-          <Route path='/Landing'>
+          <Route exact path='/'>
             <Landing />
           </Route>
           <Route path='/About'>
             <About />
-          </Route>
-          <Route path='/AppInfo'>
-            <AppInfo />
           </Route>
           <Route path='/FAQ'>
             <Faq />

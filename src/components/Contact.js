@@ -1,5 +1,9 @@
 import React from 'react';
+
+import './styles/styles.css'
 import background from '../assets/images/trees.png'
+import appStoreButton from '../assets/images/app-store-button.png'
+import googleStoreButton from '../assets/images/google-play-button.png'
 
 export default class Contact extends React.Component {
     constructor(props) {
@@ -41,7 +45,7 @@ export default class Contact extends React.Component {
                   <h1>Contact Us</h1>
                 </div>
             </div>
-                <h1>Contact Us!</h1>
+            <div class="formcontainer">
                 <form id='contact-form' onSubmit={this.onFormSubmit} method='POST'>
                     <div className='contact-form-inputs'>
                         <label htmlFor="inputName">Name</label>
@@ -57,6 +61,13 @@ export default class Contact extends React.Component {
                     </div>
                     <button type='submit'>Submit</button>
                 </form>
+            </div>
+                <div class="buttoncontainer">
+                  <h5>Download the app to get started</h5>
+                  <a href="https://www.apple.com/app-store/" class='appbutton'><img src={appStoreButton} width="300px"/></a>
+                  <a href="https://play.google.com/store?hl=en_US.com/" class='appbutton'><img src={googleStoreButton} width="300px"/></a>
+                </div>
+                <div class="bottom"/>
             </div>
         );
     }

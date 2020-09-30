@@ -15,13 +15,14 @@ import './styles/NavBar.css'
 
 export const NavBar = () => {
     return (
-        <div class="topnav">
+        <div>
             <header>
-                <Link to='/Landing'>Home</Link>
+                <Link to='/'><h4>Bins Storage</h4></Link>
+                <div class="topnav">
                 <Link to='/About'>About</Link>
-                <Link to='/AppInfo'>App</Link>
                 <Link to='/FAQ'>FAQ</Link>
                 <Link to='/Contact'>Contact Us</Link>
+                </div>
             </header>
         </div>
     );

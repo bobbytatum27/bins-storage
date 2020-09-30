@@ -1,9 +1,12 @@
 import React from 'react';
 
-import './styles/Landing.css'
+import './styles/styles.css'
 import background from '../assets/images/moving.jpg'
 import facility from '../assets/images/033-storage.png'
 import tenant from '../assets/images/022-order-1.png'
+
+import appStoreButton from '../assets/images/app-store-button.png'
+import googleStoreButton from '../assets/images/google-play-button.png'
 
 const Landing = () => (
         <body>
@@ -25,17 +28,23 @@ const Landing = () => (
                 <h4>Facilities</h4>
                 <p>Bins provides storage facilities with the technology and management system to implement valet storage.</p>
                 <p>Companies can increase revenues by filling vacancies and expanding their market radius. All of it comes without any additional costs for the facility.</p>
-                <button class="button">Contact Us</button>
+                <p>Contact us to become a storage partner.</p>
               </div>
               <div class="box">
                 <img src={tenant} width="50%"/>
                 <h4>Tenants</h4>
                 <p>Our app provides tenants with the ability to virtually view items in storage, then schedule deliveries.</p>
                 <p>Bins provides convinence and eliminates the need to pack, lift, or drive. Customers can see everything in storage without having to dig through their unit.</p>
-                <button class="button">Download App</button>
+                <p>Get started today by downloading our app.</p>
               </div>
             </div>
-            <div style={{height:'300px'}}></div>
+            <div class="buttoncontainer">
+              <h5>Download the app to get started</h5>
+              <a href="https://www.apple.com/app-store/" class='appbutton'><img src={appStoreButton} width="300px"/></a>
+              <a href="https://play.google.com/store?hl=en_US.com/" class='appbutton'><img src={googleStoreButton} width="300px"/></a>
+            </div>
+            <div class="bottom">
+            </div>
           </div>
         </body>
 )
