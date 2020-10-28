@@ -53,13 +53,30 @@
 
 /* Container for the black box on the bottom */
 .bottom {
-  height:75px;
+  height: 45px;
   background-color: #000;
+  padding: 20px;
 }
 
 /* Style for App Store/Google Play buttons*/
 .appbutton {
   margin: 15px;
+}
+
+/* Style for contact buttons*/
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 /* Style for Contact Us textbox*/
@@ -183,4 +200,12 @@ p.b {
   margin-top: 5%;
   margin-left: 10%;
   margin-right: 10%;
+}
+
+/* Footer text */
+p.c {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: #FFF;
 }

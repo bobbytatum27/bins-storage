@@ -16,14 +16,14 @@ import './styles/NavBar.css'
 export const NavBar = () => {
     return (
         <div>
-            <header>
-                <Link to='/'><h4>Bins Storage</h4></Link>
-                <div class="topnav">
-                <Link to='/About'>About</Link>
-                <Link to='/FAQ'>FAQ</Link>
-                <Link to='/Contact'>Contact Us</Link>
-                </div>
-            </header>
+          <header>
+            <Link to='/'><h4>Bins Storage</h4></Link>
+            <div class="topnav">
+            <Link to='/About'>About</Link>
+            <Link to='/FAQ'>FAQ</Link>
+            <Link to='/Contact'>Contact Us</Link>
+            </div>
+          </header>
         </div>
     );
 };

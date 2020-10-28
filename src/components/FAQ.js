@@ -16,7 +16,7 @@ const Faq = () => (
       <div class="smallcontainer">
           <h2 class='b'>General</h2>
           <h6>What is Bins Storage?</h6>
-          <p>Bins provides valet or full-service storage, offering tenants the option to have items picked up or delivered, removing the hassle of having to lift or drive.</p>
+          <p>Bins is a platform that connects storage facilities, customers, and drivers. Our platform facilitates valet/full-service storage, offering tenants the option to have items picked up or delivered, removing the hassle of having to lift or drive.</p>
           <h6>Where is Bins Offered?</h6>
           <p>You can store items in any of the storage facilities that have partnered with Bins. Currently, we are in the San Francisco Bay area, but we are planning on expanding to other regions soon.</p>
           <h6>What’s the difference between valet storage and self storage?</h6>
@@ -30,7 +30,7 @@ const Faq = () => (
           <h6>When will I be billed?</h6>
           <p>You will be charged on the day your items are moved into storage, and monthly thereafter. You will also be charged for new pickups and deliveries.</p>
           <h6>How do I pay?</h6>
-          <p>TBD</p>
+          <p>We accept payment from most major credit cards.</p>
 
           <h2 class='b'>Storing Items</h2>
           <h6>What size are the bins?</h6>
@@ -46,14 +46,16 @@ const Faq = () => (
           <h6>How Much Does an Order Cost?</h6>
           <p>Each facility will have their own delivery costs. Typically, the initial pick-up is free, and any orders after that are $20.</p>
           <h6>How Do I Cancel an Order?</h6>
-          <p>You can call ________ or email ________ to cancel an order. All orders must be canceled 24 hours before the scheduled time.</p>
+          <p>You can call or email to cancel an order. All orders must be canceled 24 hours before the scheduled time.</p>
       </div>
       <div class="buttoncontainer">
-        <h5>Download the app to get started</h5>
-        <a href="https://www.apple.com/app-store/" class='appbutton'><img src={appStoreButton} width="300px"/></a>
-        <a href="https://play.google.com/store?hl=en_US.com/" class='appbutton'><img src={googleStoreButton} width="300px"/></a>
+        <h5>Coming Soon</h5>
+        <a /*href="https://www.apple.com/app-store/"*/ class='appbutton'><img src={appStoreButton} width="300px"/></a>
+        <a /*href="https://play.google.com/store?hl=en_US.com/"*/ class='appbutton'><img src={googleStoreButton} width="300px"/></a>
       </div>
-      <div class="bottom"/>
+      <div class="bottom">
+        <p class="c"> Copyright © Bins Storage Inc. All Rights Reserved.</p>
+      </div>
   </body>
 )
 

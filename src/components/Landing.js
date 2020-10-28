@@ -39,11 +39,12 @@ const Landing = () => (
               </div>
             </div>
             <div class="buttoncontainer">
-              <h5>Download the app to get started</h5>
-              <a href="https://www.apple.com/app-store/" class='appbutton'><img src={appStoreButton} width="300px"/></a>
-              <a href="https://play.google.com/store?hl=en_US.com/" class='appbutton'><img src={googleStoreButton} width="300px"/></a>
+              <h5>Coming Soon</h5>
+              <a /*href="https://www.apple.com/app-store/"*/ class='appbutton'><img src={appStoreButton} width="300px"/></a>
+              <a /*href="https://play.google.com/store?hl=en_US.com/"*/ class='appbutton'><img src={googleStoreButton} width="300px"/></a>
             </div>
             <div class="bottom">
+              <p class="c"> Copyright © Bins Storage Inc. All Rights Reserved.</p>
             </div>
           </div>
         </body>
