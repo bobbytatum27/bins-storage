@@ -14,8 +14,7 @@ const Landing = () => (
             <div class="container">
               <img src={background} width="100%"/>
                 <div class="centered">
-                  <h1>Bins Storage</h1>
-                  <h3>Storage Virutalized</h3>
+                  <h1>Storage Virtualized</h1>
                 </div>
             </div>
             <div class="smallcontainer">
