@@ -21,15 +21,15 @@ const Landing = () => (
                 <h2>We create efficiencies through our technology</h2>
                 <p>Our platform helps traditional storage facilities transform their vacancies into valet style units, more effectively monetizing these spaces. Bins provides the software for communication and organization that makes this possible, improving storage for both businesses and customers.</p>
             </div>
-            <div class="graycontainer">
-              <div class="box">
+            <div class="row">
+              <div class="column">
                 <img src={facility} width="50%"/>
                 <h4>Facilities</h4>
                 <p>Bins provides storage facilities with the technology and management system to implement valet storage.</p>
                 <p>Companies can increase revenues by filling vacancies and expanding their market radius. All of it comes without any additional costs for the facility.</p>
                 <p>Contact us to become a storage partner.</p>
               </div>
-              <div class="box">
+              <div class="column">
                 <img src={tenant} width="50%"/>
                 <h4>Tenants</h4>
                 <p>Our app provides tenants with the ability to virtually view items in storage, then schedule deliveries.</p>

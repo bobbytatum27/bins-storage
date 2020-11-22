@@ -28,7 +28,7 @@ const About = () => (
           <p class="a">Through our app, tenants can find a storage facility, view stored items, and request deliveries or pickups. Our technology helps coordinate communication between the tenant, facility, and drivers, making the process seamless and simple.</p>
       </div>
       <div class="graphicontainer">
-      <img src={graphic}/>
+      <img src={graphic} width= "75%"/>
       </div>
       <div class="buttoncontainer">
         <h5>Coming Soon</h5>
