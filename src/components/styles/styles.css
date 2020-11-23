@@ -50,6 +50,12 @@
   float: left;
   width: 40%;
   padding: 5%;
+  background-color: #D2D9DF;
+}
+
+.row {
+  padding: 5%;
+  background-color: #D2D9DF;
 }
 
 /* Clear floats after the columns */
@@ -64,6 +70,25 @@
 @media screen and (max-width: 1000px) {
   .column {
     width: 90%;
+  }
+  h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 500;
+    margin: 10px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #FFF;
+    font-size: 75px;
+    font-weight: 500;
+    margin: 10px;
   }
 }
 
@@ -120,14 +145,7 @@ label {
 }
 
 /* Large text in top center */
-h1 {
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
-  color: #FFF;
-  font-size: 75px;
-  font-weight: 500;
-  margin: 10px;
-}
+
 
 /* Section Header Aligned Left*/
 h2 {
