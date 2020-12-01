@@ -36,7 +36,7 @@ const About = () => (
         <a /*href="https://play.google.com/store?hl=en_US.com/"*/ class='appbutton'><img src={googleStoreButton} width="300px"/></a>
       </div>
       <div class="bottom">
-        <p class="c"> © 2020 Bins Storage, Inc.</p>
+        <p class="c">© 2020 Bins Storage, Inc.</p>
       </div>
   </body>
 )
