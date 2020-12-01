@@ -57,7 +57,7 @@ export default class Contact extends React.Component {
                   <a /*href="https://play.google.com/store?hl=en_US.com/"*/ class='appbutton'><img src={googleStoreButton} width="300px"/></a>
                 </div>
                 <div class="bottom">
-                  <p class="c"> Copyright © Bins Storage Inc. All Rights Reserved.</p>
+                  <p class="c">© 2020 Bins Storage, Inc.</p>
                 </div>
             </div>
         );
