@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Helmet } from "react-helmet";
 
 import Landing from './components/Landing.js'
 import {NavBar} from './components/NavBar.js'
@@ -17,7 +18,12 @@ import {
 
 function App() {
   return (
+
     <div className="App">
+    <Helmet>
+        <title>Bins Storage</title>
+        <meta name="description" content="Store your items and have them delivered, all without lifting a finger. Discover a valet storage facility near you." />
+      </Helmet>
       <Router>
         <NavBar />
         <Switch>
